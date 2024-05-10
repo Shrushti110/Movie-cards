@@ -1,33 +1,37 @@
 body{
-    background-color: lightpink;
+    background-color:goldenrod;
     padding: 40px;
 }
 .movie-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
 }
 .movie-card{
-    background-color: #fff;
+    background-color:rgb(237, 226, 237);
     border: 1px solid #ddd;
     border-radius: 30px;
     margin: 10px;
     width: 200px;
-    height: 440px;
-    padding: 15px;
-    overflow: hidden;
+    height: 470px;
+    padding: 15px 10px;
+}
+.play-button {
+    position:relative;
+    width: 40px;
+    height: 40px; 
+    background-image: url(play-button.png);
+    transform: translate(-40%, -50%);
+    border-radius: 20px;
+    left: 80%;
+    background-size: contain;
 }
 .movie-card img{
     width: 200px;
-    height: 250px;
+    height: 240px;
     border-radius: 20px;
-    justify-content: start;
-}
-.movie-info{
-   display:flexbox;
-   flex-direction:column;
 
 }
