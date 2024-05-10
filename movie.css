@@ -3,10 +3,10 @@ body{
     padding: 40px;
 }
 .card-container{
-    height: 400px;
-    width: 250px;
-    background-color: cornsilk;
-    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
 }
 .movie-card{
     height: 200px;
