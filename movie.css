@@ -1,0 +1,12 @@
+body{
+    background-color: lightpink;
+}
+
+
+.movie-card{
+    height: 400px;
+    width: 200px;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: row;
+}
