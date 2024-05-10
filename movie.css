@@ -12,7 +12,7 @@ body{
 }
 .movie-card{
     background-color:rgb(237, 226, 237);
-    border: 1px solid #ddd;
+    border: 2px solid #9e1575;
     border-radius: 30px;
     margin: 10px;
     width: 200px;
@@ -26,6 +26,7 @@ body{
     background-image: url(play-button.png);
     transform: translate(-40%, -50%);
     border-radius: 20px;
+    border-color:rgb(94, 10, 154);
     left: 80%;
     background-size: contain;
 }
