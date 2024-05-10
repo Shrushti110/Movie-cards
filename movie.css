@@ -2,12 +2,21 @@ body{
     background-color: lightpink;
     padding: 40px;
 }
-
-.movie-card{
+.card-container{
     height: 400px;
     width: 250px;
     background-color: cornsilk;
+    border-radius: 15px;
+}
+.movie-card{
+    height: 200px;
+    width: 120px;
     display: flex;
-    flex-direction: row;
-    border-radius: 15px 70px;
+    padding: 50px;
+    
+    
+    
+}
+.movie-info{
+    height: 300px;
 }
