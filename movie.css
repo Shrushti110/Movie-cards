@@ -1,11 +1,11 @@
 body{
     background-color:goldenrod;
-    padding: 40px;
+    padding: 20px;
 }
 .movie-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:start;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -33,6 +33,13 @@ body{
     width: 200px;
     height: 240px;
     border-radius: 20px;
+}
+span{
+    text-align: end;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items:end;
+        
 }
 .movie-info{
    padding-left: 20px;
