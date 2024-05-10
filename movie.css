@@ -1,12 +1,13 @@
 body{
     background-color: lightpink;
+    padding: 40px;
 }
-
 
 .movie-card{
     height: 400px;
-    width: 200px;
+    width: 250px;
     background-color: cornsilk;
     display: flex;
     flex-direction: row;
+    border-radius: 15px 70px;
 }
