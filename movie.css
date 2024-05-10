@@ -9,13 +9,16 @@ body{
     padding: 20px;
 }
 .movie-card{
-    height: 200px;
-    width: 120px;
-    display: flex;
-    padding: 50px;
-    
-    
-    
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    overflow: hidden;
+}
+.movie-card img{
+    width: 100px;
+    height: auto;
 }
 .movie-info{
     height: 300px;
